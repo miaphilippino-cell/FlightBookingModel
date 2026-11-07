@@ -1,0 +1,136 @@
+* { 
+    box-sizing: border-box; 
+} 
+
+body { 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background: #eef3f8; 
+    color: #222; 
+} 
+
+header { 
+    background: #003366; 
+    color: white; 
+    text-align: center; 
+    padding: 25px; 
+} 
+
+header h1 { 
+    margin: 0; 
+    font-size: 35px; 
+} 
+
+.container { 
+    width: 80%; 
+    max-width: 900px; 
+    margin: 40px auto; 
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0px 5px 20px rgba(0,0,0,.15); 
+} 
+
+h2 { 
+    color: #003366; 
+} 
+
+label { 
+    display: block; 
+    margin-top: 15px; 
+    font-weight: bold; 
+} 
+
+input, select { 
+    width: 100%; 
+    padding: 12px; 
+    margin-top: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+} 
+
+button { 
+    margin-top: 25px; 
+    width: 100%; 
+    padding: 14px; 
+    background: #0066cc; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    cursor: pointer; 
+} 
+
+button:hover { 
+    background: #004c99; 
+} 
+
+.flight-card { 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    background: #fafafa; 
+} 
+
+.flight-card h3 { 
+    color: #003366; 
+} 
+
+.flight-card button { 
+    width: auto; 
+    padding: 10px 25px; 
+} 
+
+/* FIX: Added select-btn style for the search.html links */
+.select-btn {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.select-btn:hover {
+    background: #004c99;
+}
+
+.seat-map { 
+    margin-top: 25px; 
+    text-align: center; 
+} 
+
+.row { 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin: 10px; 
+} 
+
+.seat { 
+    background: #d9eaff; 
+    padding: 12px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+} 
+
+.seat:hover { 
+    background: #99ccff; 
+} 
+
+.seat input { 
+    width: auto; 
+} 
+
+.confirmation { 
+    text-align: center; 
+} 
+
+.confirmation h3 { 
+    color: green; 
+    font-size: 25px; 
+}
